@@ -25,6 +25,9 @@ public class TesScript {
             AppDependentClass.navigateURL(oBrowser, objData.get("appURL"));
             AppDependentClass.loginToActiTime(oBrowser, objData.get("userName"), objData.get("password"));
             AppDependentClass.logoutFromActiTime(oBrowser);
+
+
+            System.out.println("JUSt a Dummy line");
         }catch(Exception e){
             System.out.println("Exception in 'TS_LoginAndLogout()' testScript: "+ e);
         }finally{
