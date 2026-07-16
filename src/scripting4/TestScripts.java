@@ -7,15 +7,9 @@ import org.openqa.selenium.WebDriver;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TesScript {
-
-    public static void main(String[] args) {
-        TS_LoginAndLogout();
-        TS_CreateAndDeleteUser();
-    }
-
+public class TestScripts {
     //TC_101: Login and logout functionality
-    static void TS_LoginAndLogout() {
+    public void TS_LoginAndLogout() {
         WebDriver oBrowser = null;
         Map<String, String> objData = new HashMap<String, String>();
         try{
@@ -38,7 +32,7 @@ public class TesScript {
 
 
     //TC_102: Create and Delete user functionality
-    static void TS_CreateAndDeleteUser() {
+    public void TS_CreateAndDeleteUser() {
         WebDriver oBrowser = null;
         Map<String, String> objData = new HashMap<String, String>();
         try{
