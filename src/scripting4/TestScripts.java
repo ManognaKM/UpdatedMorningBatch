@@ -3,12 +3,14 @@ package scripting4;
 import methods4.AppDependentClass;
 import methods4.AppIndependentMethods;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class TestScripts {
     //TC_101: Login and logout functionality
+    @Test
     public void TS_LoginAndLogout() {
         WebDriver oBrowser = null;
         Map<String, String> objData = new HashMap<String, String>();
@@ -32,6 +34,7 @@ public class TestScripts {
 
 
     //TC_102: Create and Delete user functionality
+    @Test
     public void TS_CreateAndDeleteUser() {
         WebDriver oBrowser = null;
         Map<String, String> objData = new HashMap<String, String>();
