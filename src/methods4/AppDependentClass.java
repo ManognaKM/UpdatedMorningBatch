@@ -15,7 +15,7 @@ public class AppDependentClass implements ObjectLocators {
      * Method Name          : navigateURL()
      * Purpose              : to launch the required browsers viz., chrome/firefox/edge
      * Params               : WebDriver oBrowser, String strURL
-     * Return Type          : boolean
+     * Return Type          : boolean..
      ******************************************************************/
     public static boolean navigateURL(WebDriver oBrowser, String strURL){
         try{
